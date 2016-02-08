@@ -5,13 +5,13 @@ UpdPinger is our high performance UDP packet generation, reflection and collecti
 ## Requirements
 UdpPinger requires
 * Linux (with socket option SO_REUSEPORT)
-* [Facebook Folly](https://github.com/facebook/folly)
+* [Facebook Folly v0.57.0](https://github.com/facebook/folly)
 * [Apache Thrift >= 0.9.3](https://thrift.apache.org/download)
 
 ## Installing
 
 ### Ubuntu 14.04 LTS
-* Install Facebook Folly
+* Install Facebook Folly v0.57.0
 * Install Apache Thrift
 * Ensure the root FD limit is >50000 (we use loads of fd's)
 `ulimit -n 500000`
