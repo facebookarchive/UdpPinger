@@ -1,6 +1,6 @@
 
 # UpdPinger
-UpdPinger is our high performance UDP packet generation, reflection and collection library. It is used internally as the basis for very wide ECMP loss and latency profiling. This release provides two simple binaries, uping and upong, which provide a trivial wrapper to the libraries.
+UdpPinger is our high performance UDP packet generation, reflection and collection library. It is used internally as the basis for very wide ECMP loss and latency profiling. This release provides two simple binaries, uping and upong, which provide a trivial wrapper to the libraries.
 
 ## Requirements
 UdpPinger requires
@@ -11,8 +11,8 @@ UdpPinger requires
 ## Installing
 
 ### Ubuntu 14.04 LTS
-* Install Facebook Folly v0.57.0
-* Install Apache Thrift
+* [Install](https://github.com/facebook/folly#ubuntu-1404-lts) Facebook Folly v0.57.0
+* [Install Apache Thrift](https://thrift.apache.org/docs/install/debian)
 * Ensure the root FD limit is >50000 (we use loads of fd's)
 `ulimit -n 500000`
 * Make sure you load the new libraries!
@@ -26,4 +26,4 @@ make`
 * Test it out by giving adding your target hosts to target_list....
 
 ## License
-UdpPinger is BSD-licensed. We also provide an additional patent grant.
+UdpPinger is [BSD-licensed](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). We also provide an additional patent grant.
