@@ -26,4 +26,4 @@ make`
 * Test it out by giving adding your target hosts to target_list....
 
 ## License
-UdpPinger is [BSD-licensed](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). We also provide an additional patent grant.
+UdpPinger is [BSD-licensed](https://github.com/facebook/UdpPinger/blob/master/LICENSE). We also provide an additional patent grant.
