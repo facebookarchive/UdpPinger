@@ -1,6 +1,6 @@
 
-# UpdPinger
-UpdPinger is our high performance UDP packet generation, reflection and collection library. It is used internally as the basis for very wide ECMP loss and latency profiling. This release provides two simple binaries, uping and upong, which provide a trivial wrapper to the libraries.
+# UdpPinger
+UdpPinger is our high performance UDP packet generation, reflection and collection library. It is used internally as the basis for very wide ECMP loss and latency profiling. This release provides two simple binaries, uping and upong, which provide a trivial wrapper to the libraries.
 
 ## Requirements
 UdpPinger requires
