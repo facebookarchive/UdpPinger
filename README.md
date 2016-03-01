@@ -11,8 +11,8 @@ UdpPinger requires
 ## Installing
 
 ### Ubuntu 14.04 LTS
-* Install Facebook Folly v0.57.0
-* Install Apache Thrift
+* [Install](https://github.com/facebook/folly#ubuntu-1404-lts) Facebook Folly v0.57.0
+* [Install Apache Thrift](https://thrift.apache.org/docs/install/debian)
 * Ensure the root FD limit is >50000 (we use loads of fd's)
 `ulimit -n 500000`
 * Make sure you load the new libraries!
@@ -26,4 +26,4 @@ make`
 * Test it out by giving adding your target hosts to target_list....
 
 ## License
-UdpPinger is BSD-licensed. We also provide an additional patent grant.
+UdpPinger is [BSD-licensed](https://github.com/facebook/UdpPinger/blob/master/LICENSE). We also provide an additional patent grant.
